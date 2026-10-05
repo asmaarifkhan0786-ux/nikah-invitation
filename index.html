@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nimra & Yahya Imran — Nikah Invitation</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         OPENING INVITATION
+    ========================== -->
+
+    <div id="openingScreen" class="opening-screen">
+
+        <div class="stars"></div>
+        <div class="sparkles"></div>
+
+        <div class="opening-glow"></div>
+
+        <div class="envelope-container">
+
+            <div class="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="invitation-paper">
+                    <span>With Love & Duas</span>
+                    <strong>N & Y</strong>
+                </div>
+
+                <div class="envelope-front"></div>
+
+                <div class="wax-seal">
+                    N <span>♥</span> Y
+                </div>
+
+            </div>
+
+            <div class="opening-initials">
+                N <span>♥</span> Y
+            </div>
+
+            <div class="opening-invited">
+                You're Invited
+            </div>
+
+            <button id="openInvitation" class="open-button">
+                <span>♥</span>
+                Tap to Open
+                <span>♥</span>
+            </button>
+
+            <p class="opening-hint">
+                A beautiful beginning awaits...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <main id="mainWebsite" class="hidden">
+
+        <!-- MUSIC -->
+
+        <button id="musicButton" class="music-button">
+            ♫
+        </button>
+
+
+        <!-- HERO -->
+
+        <section class="hero-section">
+
+            <div class="hero-background"></div>
+
+            <div class="curtain curtain-left"></div>
+            <div class="curtain curtain-right"></div>
+
+            <div class="hero-lights">
+                ✦　✧　✦　✧　✦
+            </div>
+
+            <div class="hero-content">
+
+                <p class="small-heading">
+                    Bismillah-ir-Rahman-ir-Raheem
+                </p>
+
+                <h1>
+                    We are honored to welcome you
+                    to the Nikah ceremony of
+                </h1>
+
+                <div class="couple-names">
+                    Nimra
+                    <span>&</span>
+                    Yahya Imran
+                </div>
+
+                <p class="hero-description">
+                    As they begin their journey together
+                    in faith and love,
+                    we thank you for being part of
+                    this blessed occasion.
+                </p>
+
+                <div class="scroll-down">
+                    Scroll to continue
+                    <span>⌄</span>
+                </div>
+
+            </div>
+
+            <div class="floating-petals"></div>
+
+        </section>
+
+
+        <!-- INTRO -->
+
+        <section class="intro-section reveal">
+
+            <p class="section-label">
+                A Blessed Beginning
+            </p>
+
+            <h2>
+                Two Hearts, One Beautiful Journey
+            </h2>
+
+            <p>
+                With hearts full of gratitude, we invite you
+                to share in the joy of a new beginning.
+                Your presence and duas will make this
+                blessed occasion even more special.
+            </p>
+
+        </section>
+
+
+        <!-- SCRATCH -->
+
+        <section class="scratch-section">
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    A Little Surprise
+                </p>
+
+                <h2>
+                    Scratch to Reveal
+                </h2>
+
+                <p>
+                    Use your finger or mouse to reveal
+                    the invitation.
+                </p>
+
+            </div>
+
+            <div class="scratch-heart reveal">
+
+                <div class="revealed-invitation">
+
+                    <div class="scratch-decoration top-decoration">
+                        ✦　♡　✦
+                    </div>
+
+                    <div class="script-text">
+                        You Are Invited
+                    </div>
+
+                    <div class="day-text">
+                        Saturday
+                    </div>
+
+                    <div class="date-text">
+                        10 October 2026
+                    </div>
+
+                    <div class="time-text">
+                        6:00 PM · Nikah Ceremony
+                    </div>
+
+                    <div class="scratch-decoration bottom-decoration">
+                        ✦　♡　✦
+                    </div>
+
+                </div>
+
+                <canvas id="scratchCanvas"></canvas>
+
+                <div class="scratch-cover-text">
+                    <span>♡</span>
+                    <strong>Scratch Me</strong>
+                    <small>Use your finger or mouse</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- VENUE -->
+
+        <section class="venue-section reveal">
+
+            <p class="section-label">
+                The Celebration
+            </p>
+
+            <h2>
+                Our Venue
+            </h2>
+
+            <div class="venue-gallery">
+
+                <div class="venue-image venue-one"></div>
+
+                <div class="venue-image venue-two"></div>
+
+                <div class="venue-image venue-three"></div>
+
+            </div>
+
+            <p class="venue-description">
+                A beautiful evening surrounded by flowers,
+                warm lights and the people we love.
+            </p>
+
+            <a
+                href="https://www.google.com/maps"
+                target="_blank"
+                class="map-button"
+            >
+                📍 View on Google Maps
+            </a>
+
+        </section>
+
+
+        <!-- COUNTDOWN -->
+
+        <section class="countdown-section">
+
+            <div class="countdown-background"></div>
+
+            <div class="countdown-content reveal">
+
+                <p class="section-label">
+                    Until The Beautiful Day
+                </p>
+
+                <h2>
+                    Counting Down to Forever
+                </h2>
+
+                <div class="countdown">
+
+                    <div class="count-box">
+                        <strong id="days">00</strong>
+                        <span>Days</span>
+                    </div>
+
+                    <div class="count-box">
+                        <strong id="hours">00</strong>
+                        <span>Hours</span>
+                    </div>
+
+                    <div class="count-box">
+                        <strong id="minutes">00</strong>
+                        <span>Minutes</span>
+                    </div>
+
+                    <div class="count-box">
+                        <strong id="seconds">00</strong>
+                        <span>Seconds</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROGRAM -->
+
+        <section class="program-section reveal">
+
+            <p class="section-label">
+                Join Us
+            </p>
+
+            <h2>
+                Program
+            </h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span>04:00 PM</span>
+                    <div>
+                        <h3>Guest Arrival</h3>
+                        <p>Welcome & gathering</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span>06:00 PM</span>
+                    <div>
+                        <h3>Nikah Ceremony</h3>
+                        <p>The blessed ceremony</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span>06:30 PM</span>
+                    <div>
+                        <h3>Reception</h3>
+                        <p>Celebrating together</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <span>08:00 PM</span>
+                    <div>
+                        <h3>Dinner & Celebration</h3>
+                        <p>An evening to remember</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MESSAGE -->
+
+        <section class="message-section">
+
+            <div class="message-card reveal">
+
+                <p class="section-label">
+                    We Would Love To Hear From You
+                </p>
+
+                <h2>
+                    Send a Message
+                </h2>
+
+                <p>
+                    Leave the couple a little note
+                    of love and duas.
+                </p>
+
+                <form id="messageForm">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="Your Full Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        placeholder="Email Address"
+                    >
+
+                    <select required>
+
+                        <option value="">
+                            Will you be attending?
+                        </option>
+
+                        <option>
+                            Yes, Insha'Allah
+                        </option>
+
+                        <option>
+                            Sorry, I can't attend
+                        </option>
+
+                    </select>
+
+                    <textarea
+                        placeholder="Your Message"
+                        required
+                    ></textarea>
+
+                    <button type="submit">
+                        ✦ Send Message ✦
+                    </button>
+
+                </form>
+
+                <div id="formMessage"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DUA -->
+
+        <section class="dua-section reveal">
+
+            <p class="section-label">
+                A Special Dua
+            </p>
+
+            <div class="arabic">
+                رَبِّ اجْعَلْنَا مِنَ الصَّالِحِينَ
+            </div>
+
+            <p class="dua-translation">
+                “O Allah, make us among the righteous.”
+            </p>
+
+            <p class="dua-text">
+                May Allah bless this union with love,
+                faith, happiness and endless barakah.
+                Ameen.
+            </p>
+
+            <div class="flower-symbol">
+                ✿
+            </div>
+
+        </section>
+
+
+        <!-- FINAL -->
+
+        <section class="final-section">
+
+            <div class="final-background"></div>
+
+            <div class="final-overlay"></div>
+
+            <div class="final-content reveal">
+
+                <p class="section-label">
+                    With Love
+                </p>
+
+                <div class="final-names">
+                    Nimra
+                    <span>♥</span>
+                    Yahya Imran
+                </div>
+
+                <p class="final-date">
+                    10 · 10 · 2026
+                </p>
+
+                <p class="final-dua">
+                    May our journey always be filled
+                    with love, faith and togetherness.
+                </p>
+
+                <div class="flowers">
+                    ❀　✿　❀
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+
+            Nimra ♥ Yahya Imran
+
+            <br>
+
+            Nikah Invitation
+
+        </footer>
+
+    </main>
+
+
+    <audio
+        id="backgroundMusic"
+        loop
+        preload="auto"
+    ></audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
